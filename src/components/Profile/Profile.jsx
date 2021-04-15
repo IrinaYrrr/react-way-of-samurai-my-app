@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div className={s.content}>
       <div>
-        <img src='https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350' />
+        <img src='https://i.pinimg.com/originals/5a/df/1b/5adf1b97742a65d0a3c98299c545570b.jpg' />
       </div>
       <div>
         ava + description

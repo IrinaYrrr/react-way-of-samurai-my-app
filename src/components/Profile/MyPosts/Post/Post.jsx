@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Post.module.css';
+import Countlike from './Countlike'
 
 const Post = (props) => {
 
@@ -8,9 +9,9 @@ const Post = (props) => {
       <img src='https://www.perunica.ru/uploads/posts/2019-03/1552932077_1.jpg' />
          { props.message }
       <div>
-        <span>
-          like
-        </span>
+       <span>
+          <Countlike likes={props.likes}/> 
+       </span>
       </div>
     </div>
   );
