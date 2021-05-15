@@ -8,9 +8,7 @@ const Post = (props) => {
       <img src='https://www.perunica.ru/uploads/posts/2019-03/1552932077_1.jpg' />
          { props.message }
       <div>
-        <span>
-          like
-        </span>
+        <span>like</span> { props.likesCount }
       </div>
     </div>
   );
