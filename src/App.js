@@ -10,8 +10,6 @@ import News from './components/News/News';
 import Profile from './components/Profile/Profile';
 import Settings from './components/Settings/Settings';
 
-
-
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,7 +22,7 @@ const App = () => {
         <Route path='/news' component={News} />
         <Route path='/music' component={Music} />
         <Route path='/settings' component={Settings} />
-      </div> 
+      </div>
     </div>
     </BrowserRouter>
     );
