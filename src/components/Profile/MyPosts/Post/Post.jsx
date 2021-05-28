@@ -3,13 +3,15 @@ import s from './Post.module.css';
 import Countlike from './Countlike'
 
 const Post = (props) => {
-
-  return (
+    return (
     <div className={ s.item }>
+        {/*волк*/}
       <img src='https://www.perunica.ru/uploads/posts/2019-03/1552932077_1.jpg' />
          { props.message }
       <div>
-        <span>like</span> { props.likesCount }
+         <span>
+          <Countlike likes={props.likesCount} />
+       </span>
       </div>
     </div>
   );

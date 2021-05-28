@@ -5,6 +5,7 @@ const ProfileInfo = () => {
   return (
     <div>
       <div>
+          {/*звездное небо*/}
           <img src='https://99px.ru/sstorage/53/2014/12/tmb_116784_4339.jpg' />
       </div>
       <div className={s.descriptionBlock}>
