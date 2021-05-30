@@ -4,7 +4,6 @@ import FriendItem from "./FriendItem";
 
 
 const Friends = (props) => {
-    console.log('props ',props);
     let friendsItem = props.user.map( d => <FriendItem key={d.id} user={d} /> );
     friendsItem = friendsItem.slice(0, 3);
 
